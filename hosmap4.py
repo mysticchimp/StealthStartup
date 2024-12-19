@@ -3,7 +3,7 @@ import pandas as pd
 import pydeck as pdk
 
 # Load Hospital Data from CSV
-file_path = "/Users/pratikgaad/desktop/python/hosmap/hospital-data-with-geocodes-clean.csv"
+file_path = "https://raw.githubusercontent.com/mysticchimp/StealthStartup/main/hospital-data-with-geocodes-clean.csv"
 hospital_data = pd.read_csv(file_path)
 
 # Ensure Latitude and Longitude columns are properly formatted as floats
